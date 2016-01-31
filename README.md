@@ -1,6 +1,6 @@
 # syntaxhighlighter/brush-php
 
-php brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
+PHP brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
 [![Build Status](https://travis-ci.org/alexgorbatchev/brush-php.svg)](https://travis-ci.org/alexgorbatchev/brush-php)
 
