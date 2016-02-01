@@ -1,5 +1,5 @@
 {
-  "name": "brush-php",
+  "name": "@alexgorbatchev/brush-php",
   "version": "4.0.0",
   "description": "php brush module for SyntaxHighlighter.",
   "keywords": [
