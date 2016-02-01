@@ -2,11 +2,11 @@
 
 PHP brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
-[![Build Status](https://travis-ci.org/alexgorbatchev/brush-php.svg)](https://travis-ci.org/alexgorbatchev/brush-php)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-php.svg)](https://travis-ci.org/syntaxhighlighter/brush-php)
 
 ## Installation
 
-    npm install syntaxhighlighter/brush-php
+    npm install @alexgorbatchev/brush-php
 
 ## Testing
 
