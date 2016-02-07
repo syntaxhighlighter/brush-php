@@ -1,5 +1,5 @@
 var BrushBase = require('brush-base');
-var regexLib = require('regex-lib');
+var regexLib = require('syntaxhighlighter-regex').commonRegExp;
 
 function Brush() {
   var funcs = 'abs acos acosh addcslashes addslashes ' +
