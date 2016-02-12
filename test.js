@@ -1,11 +1,11 @@
-var chai = require('chai');
-var expect = chai.expect;
-var match = require('syntaxhighlighter-match');
-var Brush = require('./brush');
-var sample = require('fs').readFileSync(`${__dirname}/sample.txt`, 'utf8');
+import {expect} from 'chai';
+import {applyRegexList} from 'syntaxhighlighter-match';
+import Brush from './brush';
+
+const sample = require('fs').readFileSync(`${__dirname}/sample.txt`, 'utf8');
 
 describe('brush-php', function() {
-  var instance = null;
+  let instance = null;
 
   before(function() {
     instance = new Brush();
@@ -25,7 +25,7 @@ describe('brush-php', function() {
     var matches = null;
 
     before(function() {
-      matches = match.applyRegexList(sample, instance.regexList);
+      matches = applyRegexList(sample, instance.regexList);
     });
 
     it('can parse', function() {
